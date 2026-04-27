@@ -1,5 +1,5 @@
 {
-  "name": "karavan-tasarim",
+  "name": "EsyonelPacePro",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,18 +13,22 @@
     "electron-build": "npm run build && electron-builder"
   },
   "build": {
-    "appId": "com.esyonel.karavantasarim",
-    "productName": "Karavan Tasarım",
+    "appId": "com.esyonel.EsyonelPacePro",
+    "productName": "EsyonelPacePro",
     "directories": {
       "output": "release"
     },
+    "asar": true,
     "files": [
       "dist/**/*",
       "main.js",
       "package.json"
     ],
     "win": {
-      "target": "portable"
+      "target": [
+        "portable",
+        "nsis"
+      ]
     }
   },
   "dependencies": {

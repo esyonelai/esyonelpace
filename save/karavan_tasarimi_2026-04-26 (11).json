@@ -1,0 +1,1086 @@
+{
+  "items": [
+    {
+      "id": "51cd0e87-e7b5-4c99-8e9f-b694b172cfb5",
+      "type": "double_seat",
+      "position": [
+        -0.453530010240087,
+        0,
+        -1.6544238454469795
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.9,
+        0.8,
+        0.5
+      ],
+      "color": "#475569",
+      "name": "İkili Yolcu Koltuğu",
+      "weight": 20,
+      "price": 4500
+    },
+    {
+      "id": "bcf8d190-1ab5-4e2c-82a9-0f3b12d78edb",
+      "type": "table_telescopic",
+      "position": [
+        -0.49774510420415513,
+        0,
+        -1.3736010145568276
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.8,
+        0.7,
+        0.6
+      ],
+      "color": "#d4d4d8",
+      "name": "Teleskopik Masa",
+      "weight": 15,
+      "price": 3500,
+      "texture": "fabric_grey"
+    },
+    {
+      "id": "580d1fd6-e58a-48af-bc62-73ae61ef6320",
+      "type": "wardrobe",
+      "position": [
+        0.562172874858943,
+        0,
+        0.5409972498018538
+      ],
+      "rotation": [
+        0,
+        17.27875959474386,
+        0
+      ],
+      "size": [
+        0.6,
+        1.9,
+        0.5
+      ],
+      "color": "#a78bfa",
+      "name": "Gardırop",
+      "weight": 35,
+      "price": 4500,
+      "texture": "wood_walnut",
+      "isOpen": false
+    },
+    {
+      "id": "3045308a-a057-46ff-b068-36c8b20900f3",
+      "type": "high_bed",
+      "position": [
+        -0.006633072376881932,
+        0,
+        1.4759341907762815
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        1.3,
+        0.4,
+        1.71
+      ],
+      "color": "#3b82f6",
+      "name": "Yüksek Yatak (Garaj Üstü)",
+      "weight": 35,
+      "price": 5500,
+      "elevation": 0.67
+    },
+    {
+      "id": "1e978f73-1a7b-41c4-8b25-8ad0ec856ecb",
+      "type": "kitchen",
+      "position": [
+        0.5862116945992906,
+        0,
+        -0.524033816455952
+      ],
+      "rotation": [
+        0,
+        17.27875959474386,
+        0
+      ],
+      "size": [
+        1.5,
+        0.9,
+        0.6
+      ],
+      "color": "#10b981",
+      "name": "Mutfak Tezgahı",
+      "weight": 50,
+      "price": 7000,
+      "texture": "marble_white",
+      "isOpen": false,
+      "drawerCount": 4
+    },
+    {
+      "id": "9963e87e-f2db-49ce-9d9a-1dea07a323a8",
+      "type": "kitchen_sink",
+      "position": [
+        0.5271703499108364,
+        0,
+        -0.5117049661943243
+      ],
+      "rotation": [
+        0,
+        4.71238898038469,
+        0
+      ],
+      "size": [
+        0.4,
+        0.15,
+        0.4
+      ],
+      "color": "#6b8eb8",
+      "name": "Evye ve Batarya",
+      "weight": 3,
+      "price": 2500,
+      "elevation": 0.79,
+      "texture": "wood_walnut"
+    },
+    {
+      "id": "9b91f1df-592d-4263-803f-8ae04f01480c",
+      "type": "kitchen_stove",
+      "position": [
+        0.559357500032311,
+        0,
+        -0.9409775538729829
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.52,
+        0.05,
+        0.45
+      ],
+      "color": "#1e293b",
+      "name": "İkili Gazlı Ocak",
+      "weight": 5,
+      "price": 3500,
+      "elevation": 0.87
+    },
+    {
+      "id": "1fbe4c60-f84a-4d91-81da-1d83c733630b",
+      "type": "dishwasher",
+      "position": [
+        0.5759349257386874,
+        0,
+        -0.9942161848059613
+      ],
+      "rotation": [
+        0,
+        10.995574287564276,
+        0
+      ],
+      "size": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "color": "#f1f5f9",
+      "name": "Bulaşık Makinesi",
+      "weight": 20,
+      "price": 9000,
+      "isOpen": false
+    },
+    {
+      "id": "99bc1f43-1ba3-409f-9579-9a083df11bee",
+      "type": "oven",
+      "position": [
+        0.616636159059798,
+        0,
+        0.0036775824052899253
+      ],
+      "rotation": [
+        0,
+        12.566370614359172,
+        0
+      ],
+      "size": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "color": "#0f172a",
+      "name": "Gazlı Fırın",
+      "weight": 18,
+      "price": 11000,
+      "texture": "marble_white",
+      "elevation": 0.83
+    },
+    {
+      "id": "1eb36037-4410-4259-a0db-fb3f5a8f5801",
+      "type": "heater",
+      "position": [
+        -0.7382566623209588,
+        0,
+        1.0987426624146157
+      ],
+      "rotation": [
+        0,
+        10.995574287564276,
+        0
+      ],
+      "size": [
+        0.4,
+        0.15,
+        0.15
+      ],
+      "color": "#ea580c",
+      "name": "5kW Dizel Isıtıcı",
+      "weight": 5,
+      "price": 4500
+    },
+    {
+      "id": "dfb97281-f0c5-4698-88b4-fa40fd0fd207",
+      "type": "awning",
+      "position": [
+        0.9274592010918905,
+        0,
+        0.010291165723320006
+      ],
+      "rotation": [
+        0,
+        7.853981633974483,
+        0
+      ],
+      "size": [
+        4.12,
+        0.1,
+        0.15
+      ],
+      "color": "#475569",
+      "name": "Dış Tente",
+      "weight": 25,
+      "price": 16000,
+      "placement": "roof",
+      "isOpen": true,
+      "elevation": -0.12,
+      "hasSideWalls": true,
+      "extension": 3,
+      "isGardenDoorOpen": true,
+      "gardenColor": "#25bbb9"
+    },
+    {
+      "id": "67c391e8-eaf2-4aab-ac48-e4afd05473ae",
+      "type": "step",
+      "position": [
+        0.9003787528529728,
+        0,
+        -1.6237391689557887
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "color": "#1e293b",
+      "name": "Elektrikli Basamak",
+      "weight": 6,
+      "price": 4500,
+      "stepCount": 3,
+      "isOpen": true
+    },
+    {
+      "id": "1e84ced6-3e58-4a6e-9798-e2c2f2965d46",
+      "type": "moto_rack",
+      "position": [
+        -0.03598102164008843,
+        0,
+        2.3281284198667422
+      ],
+      "rotation": [
+        0,
+        6.283185307179586,
+        0
+      ],
+      "size": [
+        1.7,
+        0.1,
+        0.41
+      ],
+      "color": "#1e293b",
+      "name": "Motosiklet Taşıyıcı",
+      "weight": 40,
+      "price": 15000,
+      "elevation": -0.1,
+      "isOpen": true,
+      "hasMotorcycle": true
+    },
+    {
+      "id": "665d9dd9-f955-433f-802d-ee789af7481d",
+      "type": "water_tank",
+      "position": [
+        0.2214257321713189,
+        0,
+        0.5924043339759613
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        1.2,
+        0.4,
+        0.5
+      ],
+      "color": "#0c78a7",
+      "name": "Temiz Su Deposu 200L",
+      "weight": 205,
+      "price": 3500,
+      "placement": "cabin",
+      "texture": "fabric_grey",
+      "elevation": -0.6
+    },
+    {
+      "id": "9c26e2fd-100f-4199-8906-44d8a3f734a8",
+      "type": "waste_tank",
+      "position": [
+        0.25933076398592253,
+        0,
+        -0.3733976842852277
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1,
+        0.3,
+        0.5
+      ],
+      "color": "#94a3b8",
+      "name": "Gri Su Deposu 150L",
+      "weight": 15,
+      "price": 2200,
+      "placement": "under_floor"
+    },
+    {
+      "id": "aa439a20-031e-4e56-9c14-8da8fac5f671",
+      "type": "bathroom_cabin",
+      "position": [
+        -0.42928496561374985,
+        0,
+        0.44985551699783666
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "size": [
+        0.8,
+        1.9,
+        0.9
+      ],
+      "color": "#f8fafc",
+      "name": "Komple Banyo Kabini",
+      "weight": 45,
+      "price": 28000,
+      "isOpen": false,
+      "texture": "fabric_grey"
+    },
+    {
+      "id": "f493230d-0f06-4aaa-8e29-fa935cb53227",
+      "type": "gas_tank",
+      "position": [
+        0.5305648593913634,
+        0,
+        0.9847558067470223
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.3,
+        0.5,
+        0.3
+      ],
+      "color": "#94a3b8",
+      "name": "LPG / Gaz Tankı",
+      "weight": 15,
+      "price": 4500,
+      "tankType": "household_tank",
+      "capacity": 22
+    },
+    {
+      "id": "1ac2f2ee-051e-4a45-b747-c0e0087d0f1e",
+      "type": "water_tank",
+      "position": [
+        -0.28476026746915584,
+        0,
+        0.581160577422033
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        1.2,
+        0.4,
+        0.5
+      ],
+      "color": "#0c78a7",
+      "name": "Temiz Su Deposu 200L",
+      "weight": 205,
+      "price": 3500,
+      "placement": "cabin",
+      "texture": "fabric_grey",
+      "elevation": -0.6
+    },
+    {
+      "id": "ad91ebdf-b1ff-4eda-9532-412b12d58da1",
+      "type": "black_water_tank",
+      "position": [
+        -0.009163763126430524,
+        0,
+        1.4927693839402885
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.8,
+        0.3,
+        0.4
+      ],
+      "color": "#ef4444",
+      "name": "Siyah Su Deposu 100L",
+      "weight": 10,
+      "price": 1900,
+      "placement": "under_floor"
+    },
+    {
+      "id": "64472400-72ad-4fbe-ac0f-5e16a227367d",
+      "type": "fridge",
+      "position": [
+        -0.5030810821927874,
+        0,
+        -0.3325755974118729
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.57,
+        1.46,
+        0.61
+      ],
+      "color": "#e2e8f0",
+      "name": "12V Buzdolabı 140L",
+      "weight": 35,
+      "price": 18000
+    },
+    {
+      "id": "1359d9f5-ebf4-4892-9f79-49b719f7dc1c",
+      "type": "double_seat",
+      "position": [
+        -0.3816921353481508,
+        0,
+        -0.9122801118727664
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "size": [
+        0.9,
+        0.8,
+        0.5
+      ],
+      "color": "#475569",
+      "name": "İkili Yolcu Koltuğu",
+      "weight": 20,
+      "price": 4500
+    },
+    {
+      "id": "a8900aba-03ed-4834-97a2-06c76ee58b10",
+      "type": "washing_machine",
+      "position": [
+        0.06833939740652317,
+        0,
+        1.044530430900359
+      ],
+      "rotation": [
+        0,
+        4.71238898038469,
+        0
+      ],
+      "size": [
+        0.6,
+        0.85,
+        0.5
+      ],
+      "color": "#ffffff",
+      "name": "Çamaşır Makinesi 3kg",
+      "weight": 45,
+      "price": 12000
+    },
+    {
+      "id": "1798c5a5-c2ef-4aa0-9ae4-cf74bdfa7fdb",
+      "type": "overhead_cabinet",
+      "position": [
+        -0.685277887649026,
+        0,
+        -1.0578056249670071
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        2.03,
+        0.35,
+        0.35
+      ],
+      "color": "#1fb73d",
+      "name": "Üst Dolap",
+      "weight": 15,
+      "price": 2500,
+      "elevation": 1.54,
+      "isOpen": false,
+      "texture": "fabric_beige"
+    },
+    {
+      "id": "3a249198-db78-4555-b8b2-a067aa2a12a6",
+      "type": "overhead_cabinet",
+      "position": [
+        0.6756038521287024,
+        0,
+        -0.9034900445978105
+      ],
+      "rotation": [
+        0,
+        4.71238898038469,
+        0
+      ],
+      "size": [
+        2.28,
+        0.35,
+        0.35
+      ],
+      "color": "#471ab7",
+      "name": "Üst Dolap",
+      "weight": 15,
+      "price": 2500,
+      "elevation": 1.54,
+      "isOpen": false,
+      "texture": "fabric_grey"
+    },
+    {
+      "id": "c2262431-1557-45ea-8edd-0a0f8351f483",
+      "type": "overhead_cabinet",
+      "position": [
+        -0.6422847038292954,
+        0,
+        1.477107459339313
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        1.19,
+        0.35,
+        0.35
+      ],
+      "color": "#1fb73d",
+      "name": "Üst Dolap",
+      "weight": 15,
+      "price": 2500,
+      "elevation": 1.54,
+      "isOpen": false,
+      "texture": "fabric_beige"
+    },
+    {
+      "id": "588668de-6db3-4d87-9e4e-b1921b65a7b1",
+      "type": "overhead_cabinet",
+      "position": [
+        0.6275816487240038,
+        0,
+        1.4432990812385968
+      ],
+      "rotation": [
+        0,
+        4.71238898038469,
+        0
+      ],
+      "size": [
+        1.19,
+        0.35,
+        0.35
+      ],
+      "color": "#1f31b7",
+      "name": "Üst Dolap",
+      "weight": 15,
+      "price": 2500,
+      "elevation": 1.54,
+      "isOpen": false,
+      "texture": "fabric_beige"
+    },
+    {
+      "id": "e63ea7ef-be03-413b-bc9d-2666c90c05de",
+      "type": "overhead_cabinet",
+      "position": [
+        -0.00018883091316346245,
+        0,
+        1.876129430074243
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "size": [
+        0.9,
+        0.35,
+        0.35
+      ],
+      "color": "#b7b21f",
+      "name": "Üst Dolap",
+      "weight": 15,
+      "price": 2500,
+      "elevation": 1.54,
+      "isOpen": false,
+      "texture": "fabric_beige"
+    },
+    {
+      "id": "0374a40b-c6fc-42a3-b0f4-ffc09f4d0144",
+      "type": "solar_panel",
+      "position": [
+        -0.09370590824931302,
+        0,
+        -0.8545039676519215
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        2.465,
+        0.03,
+        1.134
+      ],
+      "color": "#27292b",
+      "name": "Güneş Paneli (Astro 610W)",
+      "weight": 34.7,
+      "price": 6500,
+      "placement": "roof",
+      "panelCount": 3,
+      "isOpen": true,
+      "openingSide": "both"
+    },
+    {
+      "id": "83207282-daf7-4a43-893f-1e70e56ff298",
+      "type": "outdoor_carpet",
+      "position": [
+        2.489779918520416,
+        0,
+        0.07985709605051916
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        3.23,
+        0.02,
+        4.12
+      ],
+      "color": "#4ade80",
+      "name": "Yeşil Dış Mekan Halısı",
+      "weight": 5,
+      "price": 1200,
+      "isOutdoor": true,
+      "elevation": -0.13,
+      "linkedToAwning": true
+    },
+    {
+      "id": "635c6323-1fb4-421a-97ee-37667dd830af",
+      "type": "outdoor_table",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1,
+        0.1,
+        0.6
+      ],
+      "color": "#94a3b8",
+      "name": "Dış Masa ve Sandalyeler",
+      "weight": 12,
+      "price": 2500,
+      "isOutdoor": true,
+      "linkedToAwning": true
+    },
+    {
+      "id": "a4ccabf5-e2df-41af-b5c2-5fe967f49079",
+      "type": "outdoor_tv",
+      "position": [
+        0.8504635820800779,
+        0,
+        0.5174407023597285
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        0.8,
+        0.5,
+        0.05
+      ],
+      "color": "#3b3fb0",
+      "name": "Dış Mekan TV",
+      "weight": 5,
+      "price": 6000,
+      "elevation": 0.74,
+      "isOutdoor": true,
+      "linkedToAwning": true
+    },
+    {
+      "id": "e24dd443-0566-44b0-b156-bf4785cc478a",
+      "type": "outdoor_seating",
+      "position": [
+        2.5466247688557084,
+        0,
+        0.4990595202400112
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1.53,
+        0.52,
+        1.87
+      ],
+      "color": "#fde047",
+      "name": "Bambu Masa Grubu",
+      "weight": 15,
+      "price": 4500,
+      "isOutdoor": true,
+      "linkedToAwning": true
+    },
+    {
+      "id": "a060fac9-219d-43f9-9e22-83caa7bbcd71",
+      "type": "bbq",
+      "position": [
+        1.4500896742668277,
+        0,
+        1.5160159653426133
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        0.67,
+        0.72,
+        0.38
+      ],
+      "color": "#1e293b",
+      "name": "Mangal / Dış Mutfak",
+      "weight": 12,
+      "price": 3000,
+      "isOutdoor": true,
+      "linkedToAwning": true
+    },
+    {
+      "id": "28358b2d-cb56-43d0-99ec-133981571682",
+      "type": "outdoor_stove",
+      "position": [
+        3.7672266353078028,
+        0,
+        -0.49201772002602884
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.4,
+        1.2,
+        0.4
+      ],
+      "color": "#475569",
+      "name": "Dış Soba",
+      "weight": 20,
+      "price": 4000,
+      "isOutdoor": true,
+      "linkedToAwning": true
+    },
+    {
+      "id": "514715c7-8188-4e58-86f1-a2e065b73205",
+      "type": "outdoor_light",
+      "position": [
+        0.9245140812179995,
+        0,
+        -0.031307147647947606
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        1,
+        0.05,
+        0.05
+      ],
+      "color": "#fcd34d",
+      "name": "Dış Aydınlatma (LED)",
+      "weight": 0.5,
+      "price": 800,
+      "elevation": 1.75,
+      "isOutdoor": true,
+      "linkedToAwning": true
+    },
+    {
+      "id": "5ce4125b-4dc8-46a0-b1d6-e1a0322e3c0e",
+      "type": "tv_antenna",
+      "position": [
+        -0.6024433392303723,
+        0,
+        0.6631810650192382
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.3,
+        0.2,
+        0.3
+      ],
+      "color": "#cbd5e1",
+      "name": "TV Anteni",
+      "weight": 2,
+      "price": 1200,
+      "placement": "roof"
+    },
+    {
+      "id": "83c0d0c6-5d7a-412c-b504-fcb80e9f4075",
+      "type": "ac",
+      "position": [
+        0.04168929782896402,
+        0,
+        1.5000009808160675
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.65,
+        0.25,
+        0.85
+      ],
+      "color": "#363030",
+      "name": "Tavan Kliması 12V",
+      "weight": 25,
+      "price": 25000,
+      "placement": "roof"
+    },
+    {
+      "id": "71360dcd-8265-46e3-b132-312858c4c1d6",
+      "type": "window",
+      "position": [
+        0.07711375186178504,
+        0,
+        2.0800828983656787
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.9,
+        0.45,
+        0.05
+      ],
+      "color": "#000000",
+      "name": "Karavan Camı",
+      "weight": 5,
+      "price": 1500,
+      "elevation": 1.09,
+      "isOpen": true
+    },
+    {
+      "id": "9dd47ab7-36e4-493e-bf1b-c0f8506f6ebf",
+      "type": "window",
+      "position": [
+        0.8187646451874739,
+        0,
+        1.3519134380838258
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        0.9,
+        0.45,
+        0.05
+      ],
+      "color": "#000000",
+      "name": "Karavan Camı",
+      "weight": 5,
+      "price": 1500,
+      "elevation": 1.09,
+      "isOpen": true
+    },
+    {
+      "id": "e92985cd-cf72-488b-a65b-453606f3db56",
+      "type": "window",
+      "position": [
+        -0.8794922971691435,
+        0,
+        -1.2906847027833608
+      ],
+      "rotation": [
+        0,
+        4.71238898038469,
+        0
+      ],
+      "size": [
+        0.9,
+        0.45,
+        0.05
+      ],
+      "color": "#000000",
+      "name": "Karavan Camı",
+      "weight": 5,
+      "price": 1500,
+      "elevation": 1.09,
+      "isOpen": true
+    },
+    {
+      "id": "03f395de-f5e1-4c4d-9b5a-e28bef6878a0",
+      "type": "window",
+      "position": [
+        -0.8797922248093564,
+        0,
+        1.3980379502275477
+      ],
+      "rotation": [
+        0,
+        4.71238898038469,
+        0
+      ],
+      "size": [
+        0.9,
+        0.45,
+        0.05
+      ],
+      "color": "#000000",
+      "name": "Karavan Camı",
+      "weight": 5,
+      "price": 1500,
+      "elevation": 1.09,
+      "isOpen": true
+    },
+    {
+      "id": "69449815-2402-4d39-8016-5932966b64aa",
+      "type": "window",
+      "position": [
+        0.8220820985354518,
+        0,
+        -0.6425767670023839
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "size": [
+        0.63,
+        0.41,
+        0.05
+      ],
+      "color": "#000000",
+      "name": "Karavan Camı",
+      "weight": 5,
+      "price": 1500,
+      "elevation": 1.09,
+      "isOpen": true
+    },
+    {
+      "id": "65911b81-a2bd-4c0e-8e51-ff08cfb96136",
+      "type": "window",
+      "position": [
+        -0.932054619748655,
+        0,
+        0.36314974018856105
+      ],
+      "rotation": [
+        0,
+        4.71238898038469,
+        0
+      ],
+      "size": [
+        0.25,
+        0.25,
+        0.05
+      ],
+      "color": "#000000",
+      "name": "Karavan Camı",
+      "weight": 5,
+      "price": 1500,
+      "elevation": 1.58,
+      "isOpen": true
+    }
+  ],
+  "caravanType": "motokaravan",
+  "selectedVehicleId": "transit",
+  "customVehicleSizes": {},
+  "wallTexture": "white",
+  "floorTexture": "wood_oak",
+  "savedAt": "2026-04-26T12:04:50.373Z"
+}

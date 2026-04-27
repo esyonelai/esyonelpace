@@ -1,8 +1,23 @@
 import { Edges } from '@react-three/drei'
 
-export default function VanModel({ vehicle }) {
+export default function VanModel({ vehicle, wallTexture = 'white', floorTexture = 'wood_oak' }) {
   if (!vehicle) return null;
   const [width, height, length] = vehicle.innerSize;
+
+  const getTextureMaterial = (tex) => {
+    switch(tex) {
+      case 'wood_oak': return { color: '#d4a373', roughness: 0.6, metalness: 0.1 };
+      case 'wood_walnut': return { color: '#6f4e37', roughness: 0.5, metalness: 0.1 };
+      case 'fabric_grey': return { color: '#94a3b8', roughness: 1.0, metalness: 0 };
+      case 'fabric_beige': return { color: '#d6d3d1', roughness: 1.0, metalness: 0 };
+      case 'metal_anthracite': return { color: '#334155', roughness: 0.4, metalness: 0.5 };
+      case 'marble_white': return { color: '#f8fafc', roughness: 0.1, metalness: 0.3 };
+      default: return { color: '#f8fafc', roughness: 0.9, metalness: 0 };
+    }
+  };
+
+  const wallMat = getTextureMaterial(wallTexture);
+  const floorMat = getTextureMaterial(floorTexture);
 
   // Aracın dış ölçüleri (kaba taslak)
   const wallThickness = 0.05;
@@ -19,14 +34,14 @@ export default function VanModel({ vehicle }) {
         {/* Zemin (Ahşap / Kontrplak Görünümü) */}
         <mesh receiveShadow position={[0, -height / 2 - floorThickness / 2, 0]}>
            <boxGeometry args={[width, floorThickness, length]} />
-           <meshStandardMaterial color="#d4a373" transparent={true} opacity={0.15} depthWrite={false} />
+           <meshStandardMaterial {...floorMat} transparent={true} opacity={0.4} depthWrite={false} />
            <Edges color="#a0522d" transparent opacity={0.5} />
         </mesh>
 
         {/* Sol Duvar (İç Kaplama - Beyaz/Açık Gri) - Kamera açısına göre içeriyi görmek için yarı saydam */}
         <mesh receiveShadow castShadow position={[-width / 2 - wallThickness / 2, 0, 0]}>
            <boxGeometry args={[wallThickness, height, length]} />
-           <meshStandardMaterial color="#f8fafc" transparent opacity={0.6} depthWrite={false} roughness={0.9} />
+           <meshStandardMaterial {...wallMat} transparent opacity={0.6} depthWrite={false} />
            <Edges color="#e2e8f0" />
         </mesh>
 
@@ -35,7 +50,7 @@ export default function VanModel({ vehicle }) {
         {/* Sağ Duvar (Şeffaf / Açık - Tasarım yapabilmek için) */}
         <mesh position={[width / 2 + wallThickness / 2, 0, 0]}>
            <boxGeometry args={[wallThickness, height, length]} />
-           <meshStandardMaterial color="#cbd5e1" transparent opacity={0.1} depthWrite={false} />
+           <meshStandardMaterial {...wallMat} transparent opacity={0.15} depthWrite={false} />
            <Edges color="#94a3b8" />
         </mesh>
 
@@ -44,7 +59,7 @@ export default function VanModel({ vehicle }) {
         {/* Arka Duvar (Kapıların olduğu yer - Beyaz İç Kaplama) */}
         <mesh receiveShadow castShadow position={[0, 0, length / 2 + wallThickness / 2]}>
            <boxGeometry args={[outerWidth, height, wallThickness]} />
-           <meshStandardMaterial color="#f8fafc" roughness={0.9} transparent opacity={0.1} depthWrite={false} />
+           <meshStandardMaterial {...wallMat} transparent opacity={0.15} depthWrite={false} />
            <Edges color="#94a3b8" />
         </mesh>
         

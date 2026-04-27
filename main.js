@@ -7,13 +7,14 @@ const __dirname = path.dirname(__filename);
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
+    title: "EsyonelPacePro v.14 Ahmet Vural tescilli markasıdır.",
     width: 1280,
     height: 720,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
     },
-    icon: path.join(__dirname, 'public/vite.svg'), // You can change this to your icon
+    // icon: path.join(__dirname, 'public/favicon.svg'), 
   });
 
   // In development, load from the vite dev server

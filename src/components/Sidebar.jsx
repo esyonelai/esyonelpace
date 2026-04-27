@@ -4,7 +4,7 @@ import {
   Zap, Droplets, Flame, ShieldAlert, ChevronDown, ChevronRight, 
   Refrigerator, Fan, Sun, BatteryMedium, Droplet, Toilet,
   Armchair, Lightbulb, Bath, Monitor, Wifi, Plug, Tent,
-  Table2, Footprints
+  Table2, Footprints, Bike
 } from 'lucide-react'
 
 const Category = ({ title, icon: Icon, colorClass, children, isOpen, onClick }) => (
@@ -61,6 +61,7 @@ export default function Sidebar({ items, onAddItem }) {
           
           <Category title="Mobilya & Yaşam" icon={Bed} colorClass="text-blue-400" isOpen={openCategory === 'mobilya'} onClick={() => toggleCat('mobilya')}>
             <AddButton onClick={() => onAddItem('seat_l')} icon={Armchair} title="L Koltuk Takımı" colorClass="text-slate-400" bgClass="bg-slate-800/40" />
+            <AddButton onClick={() => onAddItem('double_seat')} icon={Armchair} title="İkili Koltuk" colorClass="text-slate-300" bgClass="bg-slate-700/40" />
             <AddButton onClick={() => onAddItem('table_telescopic')} icon={Table2} title="Teleskopik Masa" colorClass="text-zinc-400" bgClass="bg-zinc-800/40" />
             <AddButton onClick={() => onAddItem('swivel_seat')} icon={Armchair} title="Döner Koltuk (Kaptan)" colorClass="text-stone-400" bgClass="bg-stone-800/40" />
             <AddButton onClick={() => onAddItem('bed')} icon={Bed} title="Sabit Yatak" colorClass="text-blue-400" bgClass="bg-blue-900/30" />
@@ -86,6 +87,7 @@ export default function Sidebar({ items, onAddItem }) {
           <Category title="Mutfak & Beyaz Eşya" icon={Refrigerator} colorClass="text-cyan-400" isOpen={openCategory === 'beyaz_esya'} onClick={() => toggleCat('beyaz_esya')}>
             <AddButton onClick={() => onAddItem('kitchen_sink')} icon={Droplet} title="Evye ve Batarya" colorClass="text-blue-300" bgClass="bg-blue-900/30" />
             <AddButton onClick={() => onAddItem('kitchen_stove')} icon={Flame} title="İkili Gazlı Ocak" colorClass="text-orange-400" bgClass="bg-orange-900/30" />
+            <AddButton onClick={() => onAddItem('gas_tank')} icon={Flame} title="LPG / Gaz Tankı" colorClass="text-slate-300" bgClass="bg-slate-700/40" />
             <AddButton onClick={() => onAddItem('fridge')} icon={Refrigerator} title="12V Buzdolabı 140L" colorClass="text-cyan-400" bgClass="bg-cyan-900/30" />
             <AddButton onClick={() => onAddItem('washing_machine')} icon={Fan} title="Çamaşır Makinesi 3kg" colorClass="text-teal-400" bgClass="bg-teal-900/30" />
             <AddButton onClick={() => onAddItem('dishwasher')} icon={Grid} title="Bulaşık Makinesi" colorClass="text-sky-400" bgClass="bg-sky-900/30" />
@@ -94,6 +96,7 @@ export default function Sidebar({ items, onAddItem }) {
           </Category>
 
           <Category title="Banyo, Su & Isıtma" icon={Droplets} colorClass="text-blue-300" isOpen={openCategory === 'su'} onClick={() => toggleCat('su')}>
+            <AddButton onClick={() => onAddItem('bathroom_cabin')} icon={Bath} title="Komple Banyo Kabini" colorClass="text-blue-400" bgClass="bg-blue-900/50" />
             <AddButton onClick={() => onAddItem('shower_tray')} icon={Bath} title="Duş Teknesi" colorClass="text-blue-200" bgClass="bg-blue-800/40" />
             <AddButton onClick={() => onAddItem('toilet')} icon={Toilet} title="Kasetli Tuvalet" colorClass="text-gray-300" bgClass="bg-gray-700/50" />
             <AddButton onClick={() => onAddItem('bathroom_cabinet')} icon={Grid} title="Banyo Dolabı" colorClass="text-slate-300" bgClass="bg-slate-700/40" />
@@ -112,10 +115,16 @@ export default function Sidebar({ items, onAddItem }) {
             <AddButton onClick={() => onAddItem('sensor')} icon={ShieldAlert} title="Gaz/Duman Sensörü" colorClass="text-slate-400" bgClass="bg-slate-700/40" />
             <AddButton onClick={() => onAddItem('fire_ext')} icon={Flame} title="Yangın Tüpü" colorClass="text-red-500" bgClass="bg-red-900/30" />
             <AddButton onClick={() => onAddItem('awning')} icon={Tent} title="Dış Tente" colorClass="text-slate-300" bgClass="bg-slate-700/50" />
+            <AddButton onClick={() => onAddItem('outdoor_carpet')} icon={Tent} title="Yeşil Dış Mekan Halısı" colorClass="text-green-400" bgClass="bg-green-900/30" />
+            <AddButton onClick={() => onAddItem('outdoor_seating')} icon={Armchair} title="Bambu Masa Grubu" colorClass="text-yellow-400" bgClass="bg-yellow-900/30" />
+            <AddButton onClick={() => onAddItem('bbq')} icon={Flame} title="Mangal / Dış Mutfak" colorClass="text-orange-500" bgClass="bg-orange-900/30" />
+            <AddButton onClick={() => onAddItem('outdoor_stove')} icon={Flame} title="Dış Soba" colorClass="text-red-500" bgClass="bg-red-900/30" />
+            <AddButton onClick={() => onAddItem('outdoor_tv')} icon={Monitor} title="Dış Mekan TV" colorClass="text-blue-300" bgClass="bg-blue-900/30" />
             <AddButton onClick={() => onAddItem('outdoor_table')} icon={Table2} title="Dış Masa/Sandalye" colorClass="text-zinc-400" bgClass="bg-zinc-800/40" />
             <AddButton onClick={() => onAddItem('outdoor_light')} icon={Lightbulb} title="Dış Aydınlatma" colorClass="text-yellow-400" bgClass="bg-yellow-900/30" />
             <AddButton onClick={() => onAddItem('step')} icon={Footprints} title="Elektrikli Basamak" colorClass="text-stone-400" bgClass="bg-stone-800/40" />
             <AddButton onClick={() => onAddItem('moto_rack')} icon={Truck} title="Motosiklet Taşıyıcı" colorClass="text-gray-400" bgClass="bg-gray-800/60" />
+            <AddButton onClick={() => onAddItem('motorcycle')} icon={Bike} title="Yamaha NMAX 155" colorClass="text-blue-400" bgClass="bg-blue-900/40" />
             <AddButton onClick={() => onAddItem('tv')} icon={Monitor} title="12V Akıllı TV" colorClass="text-gray-300" bgClass="bg-gray-800/50" />
             <AddButton onClick={() => onAddItem('router')} icon={Wifi} title="4G/5G Router" colorClass="text-blue-300" bgClass="bg-blue-900/40" />
             <AddButton onClick={() => onAddItem('tv_antenna')} icon={Zap} title="TV Anteni" colorClass="text-blue-300" bgClass="bg-blue-900/30" />
